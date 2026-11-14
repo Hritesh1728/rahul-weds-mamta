@@ -1,0 +1,6 @@
+<!doctype html><meta charset="utf-8"><title>Theme preview</title><!-- Open this file to see every ready-made theme. Not part of the website. --><style>body{margin:0;font:12px sans-serif;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:6px;background:#fff}
+.c{border-radius:10px;overflow:hidden;border:1px solid #ddd}.top{height:54px;display:flex;align-items:center;gap:6px;padding:0 8px;color:#fff;font-weight:600}
+.top img{height:44px}.row{display:flex;align-items:center;gap:6px;padding:6px}.row img{height:58px}.b{padding:4px 10px;border-radius:99px;color:#fff;font-weight:600}</style>
+<script src="config.js"></script><body><script>
+Object.keys(THEMES).forEach(function(k){var t=THEMES[k];document.body.insertAdjacentHTML('beforeend','<div class="c"><div class="top" style="background:radial-gradient(circle,'+t.main+','+t.dark+')"><img src="wax-seal.png" style="filter:'+t.pictures+'">'+k+'</div><div class="row" style="background:color-mix(in srgb,'+t.main+' 5%,#fff)"><img src="pillar-left.webp" style="filter:'+t.pictures+';height:58px;width:30px;object-fit:cover;object-position:top"><img src="ganesh.webp" style="filter:'+t.pictures+';height:40px"><span class="b" style="background:'+t.main+'">Button</span><span style="color:'+t.gold+';font-size:20px">✦</span></div></div>')});
+</script>
